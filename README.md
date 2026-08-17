@@ -5,6 +5,8 @@
 
 # removed all the triggers in my codeql file
 
+# copied veracode.yml
+
 
 # Buildkite Python (pipenv) Example
 # Buildkite Python (pipenv) Examples
