@@ -5,7 +5,7 @@
 #closed the commit now lets see if this triggers a scan
 tru
 Trigger after scm packaging change
-trigger for default windows latest
+trigger for default windows latest windows
 
 # one more commit after reopened
 
