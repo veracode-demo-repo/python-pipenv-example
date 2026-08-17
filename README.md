@@ -4,6 +4,8 @@
 
 #closed the commit now lets see if this triggers a scan
 
+Trigger after scm packaging change
+
 # one more commit after reopened
 
 # one more scan y not 
