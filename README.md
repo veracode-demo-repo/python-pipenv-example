@@ -10,7 +10,7 @@ trigger for default windows latest windows
 # one more commit after reopened
 
 # one more scan y not 
-
+ubuntu
 
 # Buildkite Python (pipenv) Example
 # Buildkite Python (pipenv) Examples
