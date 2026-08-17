@@ -1,14 +1,8 @@
 # This is my first commit after pull request creation
 
-# new branch new edit
+# new branch new edit - now closed the PR
 
-#this is my second commit still the PR is open
 
-#closed the commit now lets see if this triggers a scan
-
-# one more commit after reopened
-
-# one more scan y not 
 
 
 # Buildkite Python (pipenv) Example
