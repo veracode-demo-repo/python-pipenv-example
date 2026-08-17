@@ -9,6 +9,7 @@
 
 # removed
 
+# closed PR test
 
 # Buildkite Python (pipenv) Example
 # Buildkite Python (pipenv) Examples
