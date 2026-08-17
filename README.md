@@ -3,11 +3,11 @@
 #this is my second commit still the PR is open
 
 #closed the commit now lets see if this triggers a scan
-tru
+truss
 Trigger after scm packaging change
 trigger for default windows latest windows
 
-# one more commit after reopened
+# one more commit after reopeneds
 
 # one more scan y not 
 ubuntu
