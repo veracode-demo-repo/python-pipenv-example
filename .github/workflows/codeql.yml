@@ -4,9 +4,12 @@ on:
   push:
     branches: ["main"]
   pull_request:
-    branches: ["main"]
-  schedule:
-    - cron: "0 6 * * 1" # Runs every Monday at 06:00 UTC
+    types:
+      - opened
+      - synchronize
+      - reopened
+    branches:
+      - "*" # Matches any branch name
 
 jobs:
   analyze:
