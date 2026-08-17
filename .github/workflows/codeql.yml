@@ -9,6 +9,7 @@ on:
       - opened
       - synchronize
       - reopened
+      - closed
     branches:
       - "*" # Matches any branch name
 
@@ -38,3 +39,24 @@ jobs:
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
+
+      - name: Find and update PR
+        uses: actions/github-script@v7
+        if: always()
+        with:
+          script: |
+            const { data: pulls } = await github.rest.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'all',
+              head: `${context.repo.owner}:${context.ref.replace('refs/heads/', '')}`
+            });
+            if (pulls.length > 0) {
+              const pr = pulls[0];
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr.number,
+                body: '✅ CodeQL analysis complete on commit push'
+              });
+            }
