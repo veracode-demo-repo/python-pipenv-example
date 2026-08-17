@@ -3,7 +3,7 @@
 # Added script to PR 
 # new branch new edit - now closed the PR
 
-
+# removed all the triggers in my codeql file
 
 
 # Buildkite Python (pipenv) Example
