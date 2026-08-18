@@ -3,3 +3,6 @@ def incr(x):
 
 def test_incr():
     assert incr(3) == 4
+
+def test_decr():
+    assert incr(4) == 5
