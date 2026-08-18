@@ -1,6 +1,6 @@
 # This is my first commit after pull request creationssss
 
-# Added script to PR sssssss
+# Added script to PR sssssssd
 # new branch new edit - now closed the PR
 
 # removed all the triggers in my codeql file
