@@ -5,7 +5,7 @@
 
 # removed all the triggers in my codeql file
 
-# copied veracode.ymccssssclsss
+# copied veracode.ymccssssclssss
 ssssssss
 # removed
 
