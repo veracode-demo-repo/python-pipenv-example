@@ -14,7 +14,10 @@ ssssssss
 # Buildkite Python (pipenv) Example
 # Buildkite Python (pipenv) Examples
 
-#Updated veracode.yml back to dev one
+#Updated veraco
+reopened
+
+de.yml back to dev one
 # try to mimic
 
 test sca predep inside workflow now
